@@ -10,10 +10,9 @@ const char moves[6][3][3] = {
   {"B", "B'", "B2"},
   {"D", "D'", "D2"}
 };
-const int mcount = 17;
 void print_scramble(void);
 
-int main(int argc, char** argv) {
+int main() {
   int count = 0;
   double t, total = 0;
   struct timespec tstart={0,0}, tend={0,0};
